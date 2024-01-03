@@ -1,0 +1,40 @@
+.tarifsPage {
+  width: 70vw;
+  height: 70vh;
+  border: 10px solid var(--main-color-yellow);
+  display: flex;
+  flex-direction: column;
+  color: var(--main-color-yellow);
+  margin-top: 8rem;
+}
+.tarifsPage-title {
+  font-size: 4rem;
+  font-weight: 900;
+
+
+}
+.tarifsPage-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.tarifsPage-li {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.tarifsPage-li-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.tarifsPage-li-tarifs {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.tarifsPage-li-info {
+  font-size: 0.8rem;
+}

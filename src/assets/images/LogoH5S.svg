@@ -7,8 +7,9 @@
 	.st1{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
 	.st2{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 	.st3{enable-background:new    ;}
+	.st4{fill: #100C0D;}
 </style>
-<rect y="0" width="1080" height="1080"/>
+<rect y="0" width="1080" height="1080" class="st4"/>
 <rect x="175.2" y="238" class="st0" width="46.7" height="107.7"/>
 <polygon class="st0" points="175.2,386.8 313.5,386.8 313.5,238 358.4,238 358.4,476.7 313.5,476.7 312.6,433.4 222,433.4 
 	222,476.7 175.2,476.7 "/>

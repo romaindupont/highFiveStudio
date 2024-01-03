@@ -1,0 +1,33 @@
+.blog {
+  perspective: 500px;
+/*   width: 70vw;
+  height: 60vh;
+  background: var(--main-color-beige); */
+}
+.blog-img {
+  width: 100%;
+  height: 73%;
+}
+.blog-title {
+  color: var(--main-color-black);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.blog-content {
+  font-size: 1rem;
+  color: var(--main-color-black);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 1rem;
+}
+.blog-link {
+  font-size: 1rem;
+  color: var(--main-color-black);
+
+}
+.blog-link:hover {
+  font-size: 1rem;
+  color: var(--main-color-yellow);
+}

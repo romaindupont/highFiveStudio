@@ -1,0 +1,40 @@
+.qui-left {
+  width: 50%;
+  background: var( --main-color-black);
+  height: 100%;
+  position: absolute;
+  display: flex;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.qui-image {
+  border: 5px solid var(--main-color-yellow);
+  width: 50%;
+  height: 50%;
+
+}
+.qui-right {
+  width: 50%;
+  background: var( --main-color-black);
+  height: 100%;
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  padding-right: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.qui-text {
+  color: var(--main-color-yellow);
+  font-size: 1.5rem;
+}
+
+h1.qui-signature {
+  position: absolute;
+  bottom: 7%;
+  font-size: 2rem;
+  color: var(--main-color-yellow)
+}

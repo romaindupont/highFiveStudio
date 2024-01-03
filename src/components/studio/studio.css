@@ -1,0 +1,79 @@
+#studio {
+  justify-content: start;
+}
+.image {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.image-ul {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 100vw;
+ /*  height: inherit; */
+/*   position: relative;
+  left: 0; */
+}
+.leftSlide {
+  -webkit-backdrop-filter: blur(1px); 
+  backdrop-filter: blur(1px);
+  background-color: rgba(182, 182, 182, 0.2);
+  width: 5vw;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  transition: background 500ms ease-in-out;
+  cursor:pointer;
+}
+/*  */
+.leftSlide::before {
+  content: '\25C0';
+  color: var(--main-color-yellow);
+  cursor: pointer;
+}
+.leftSlide:hover {
+  background: var(--main-color-green);
+}
+.rightSlide {
+  -webkit-backdrop-filter: blur(1px); 
+  backdrop-filter: blur(1px);
+  background-color: rgba(182, 182, 182, 0.2);
+  width: 5vw;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  transition: background 500ms ease-in-out;
+  cursor:pointer;
+}
+.rightSlide::before {
+  content: '\25C0';
+  transform: rotate(60deg);
+  color: var(--main-color-yellow);
+  cursor: pointer;
+}
+.rightSlide:hover {
+  background: var(--main-color-green);
+}
+.image-li {
+  width: 60vw;
+  height: 100vh;
+  margin:0 0.5rem;
+  transition: all 1.5s cubic-bezier(0, 0.59, 1, 1) 0s;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+}
+
+.leftSlide, .rightSlide {
+  z-index: 2;
+}
